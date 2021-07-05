@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GA viz</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header" style="padding: 10px 40px;">
+            <p style="
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;">popuation are the total number of particles and speed is animation speed for visualization genertation show's how many attempts it took to reach goal.</p>
+            <div class="row">
+                <div class="group_1">
+                    <h2>Population</h2>
+                    <input type="range" form="0" id="pop"  value="20"><span id='popNo' class="spinner"></span>
+                </div>
+                <div class="group_1">
+                    <h2>Speed</h2>
+                    <input type="range" form="0" id="speed" value="28" disabled><span id='speedNo' class='spinner'></span>
+                </div>
+                <div class="group_1" style="align-self: center;padding-left: 10px;padding-right: 10px;">
+                    <button id='start' class='start' >Start</button>
+                </div>
+                <div class="endrow" style="   
+                flex-basis: 68%;
+                text-align: end;">
+                    <h1 style="font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 48px;
+                    line-height: 56px;
+                    
+                    color: rgba(5, 94, 143, 0.6);">Generation <span id='genNo'>100</span></h1>
+                </div>
+            </div>
+        </div>
+        <div class="main" style="
+        padding: 0 10px;
+        position: absolute;
+        width: 98%;
+        ">
+            <canvas id='canvas'>
+
+            </canvas>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
