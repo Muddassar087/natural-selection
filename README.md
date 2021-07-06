@@ -10,7 +10,7 @@ process includes:
   <li>Reproduce</li>
   <li>Mutate</li>
 </ul>
-repaet the given cycle
+repeat the given cycle
 <h2>Fitness calculation</h2>
 We are caluating fitness on the basis of minumum distance from goal (single line distance furmula than normalization it).
 <h2>Mating pool</h2>
