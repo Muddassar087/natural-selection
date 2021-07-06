@@ -17,3 +17,6 @@ We are caluating fitness on the basis of minumum distance from goal (single line
 Any individual has higher fitness make its chances of selection to reprduce higher than with the low fitness by stuffing the higer fitness particle more than one with the low one
 <h2>Particle</h2>
 Individual particle has genes which are random vector values, fitness value its index of current (vector direction) and has reached at the goal or not
+
+# Live version
+https://naturalselection-muddassarapps.netlify.app/
