@@ -1,6 +1,6 @@
 # natural-selection
 <p>
-  Natural selection is a javaScript code that uses the porcess of natural selection and find the optimal solution
+  Natural selection is a javaScript code that uses the process of natural selection and find the optimal solution
 </p>
 process includes:
 <ul>
