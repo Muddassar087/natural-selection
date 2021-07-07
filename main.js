@@ -44,7 +44,7 @@ class Particle{
     }
     calFitness(goal){
         let dist = Math.sqrt((goal.x - this.x)**2 + (goal.y - this.y)**2);
-        let norm = 1 - dist/width;
+        let norm = 1 - dist/(width+height);
         this.fitness = norm;
         console.log(this.fitness)
     }
